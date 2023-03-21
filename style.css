@@ -1,0 +1,45 @@
+@keyframes header_anim {
+    from {
+      transform: translateX(-120%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+
+.mbr-overlay {
+    background-image: url("assets/images/prolet-bg.png");
+    background-color: transparent;
+    background-size: cover;
+    align-items: stretch;
+}
+
+.contacts {
+    width: 50px;
+    height: 50px;
+}
+
+.contacts_nav {
+    width: 30px;
+    height: 30px;
+}
+
+.strip {
+    height: 100px;
+}
+
+.chess.strip {
+  object-fit: cover;
+  background-color: #f8d619;
+}
+
+.mbr-white {
+    transform: translateX(0);
+    animation-name: header_anim;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    text-transform: uppercase;
+    
+    align-self: center;
+}
