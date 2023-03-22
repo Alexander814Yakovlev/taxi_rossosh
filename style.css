@@ -9,8 +9,7 @@
 
 
 .mbr-overlay {
-    background-image: url("assets/images/prolet-bg.png");
-    background-color: transparent;
+    background-image: url("assets/images/background.jpeg");
     background-size: cover;
     align-items: stretch;
 }
