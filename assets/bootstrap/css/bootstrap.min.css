@@ -4066,6 +4066,8 @@ fieldset:disabled .btn {
 }
 .card-title {
   margin-bottom: 0.5rem;
+  margin: 5px;
+  text-align: center;
 }
 .card-subtitle {
   margin-top: -0.25rem;

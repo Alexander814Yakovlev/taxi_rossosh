@@ -27,8 +27,9 @@ body {
 }
 .display-5 {
   font-family: 'Roboto', sans-serif;
-  font-size: 2rem;
+  font-size: 1.6rem;
   line-height: 1.5;
+  
 }
 .display-5 > .mbr-iconfont {
   font-size: 2.5rem;
@@ -1190,14 +1191,14 @@ a {
   margin: 1em 0;
   height: 2em;
   line-height: 2em;
-  color: white;
+  color: #f8d619;
   background: black;
 }
 .cid-tvPulr62sf .gradient:before {
-  background: linear-gradient(to right, white, black);
+  background: linear-gradient(to right, #f8d619, black);
 }
 .cid-tvPulr62sf .gradient:after {
-  background: linear-gradient(to left, white, black);
+  background: linear-gradient(to left, #f8d619, black);
 }
 .cid-tvPDqf9eUy {
   padding-top: 1rem;
@@ -1269,14 +1270,14 @@ a {
   margin: 1em 0;
   height: 2em;
   line-height: 2em;
-  color: white;
+  color: #f8d619;
   background: black;
 }
 .cid-tvPumgfY82 .gradient:before {
-  background: linear-gradient(to right, white, black);
+  background: linear-gradient(to right, #f8d619, black);
 }
 .cid-tvPumgfY82 .gradient:after {
-  background: linear-gradient(to left, white, black);
+  background: linear-gradient(to left, #f8d619, black);
 }
 .cid-sFHu4seZjP {
   padding-top: 2rem;
@@ -1329,14 +1330,14 @@ a {
   margin: 1em 0;
   height: 2em;
   line-height: 2em;
-  color: white;
+  color: #f8d619;
   background: black;
 }
 .cid-tvPun7Rfmb .gradient:before {
-  background: linear-gradient(to right, white, black);
+  background: linear-gradient(to right, #f8d619, black);
 }
 .cid-tvPun7Rfmb .gradient:after {
-  background: linear-gradient(to left, white, black);
+  background: linear-gradient(to left, #f8d619, black);
 }
 .cid-tvLRFwNwoL {
   padding-top: 1rem;
