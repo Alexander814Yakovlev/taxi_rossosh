@@ -3872,7 +3872,7 @@ fieldset:disabled .btn {
     overflow: visible;
   }
   .navbar-expand-lg .navbar-collapse {
-    display: flex !important;
+    display: contents;
     flex-basis: auto;
   }
   .navbar-expand-lg .navbar-toggler {
