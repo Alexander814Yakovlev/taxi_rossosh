@@ -1,31 +1,70 @@
-@keyframes header_anim {
-    from {
-      transform: translateX(-120%);
-    }
-    to {
-      transform: translateX(0);
-    }
-  }
+/*
+Theme Name: Taxi Landing
+Theme URI: https://wordpress.org/themes/
+Author: Alexander Yakovlev
+Author URI: https://vk.com/id17116167
+Description: Тема для лендинга такси
+Version: 0.1
+*/
 
+
+@keyframes header_anim {
+  from {
+    transform: translateX(-120%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
 
 .mbr-overlay {
-    background-image: url("assets/images/background.jpeg");
-    background-size: cover;
-    align-items: stretch;
+  background-image: url("assets/images/background.webp");
+  background-size: cover;
+  align-items: stretch;
 }
 
 .contacts {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .contacts_nav {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.icons-menu-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.icons-menu {
+  flex-wrap: wrap !important;
+  max-width: 150px;
+  padding: 0 !important;
+  margin: 10px;
+}
+
+.iconfont-wrapper {
+  font-size: 30px !important;
+  margin: 10px auto;
+  padding-left: 0.5rem;
+}
+
+.navbar-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-black-outline {
+  padding: 0;
+  margin: auto;
 }
 
 .strip {
-    height: 100px;
+  height: 100px;
+  background: url("assets/images/pngegg.png") center repeat-x;
+  background-color: #f8d619;
 }
 
 .chess.strip {
@@ -34,11 +73,38 @@
 }
 
 .mbr-white {
-    transform: translateX(0);
-    animation-name: header_anim;
-    animation-duration: 1s;
-    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    text-transform: uppercase;
-    
-    align-self: center;
+  transform: translateX(0);
+  animation-name: header_anim;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  text-transform: uppercase;
+
+  align-self: center;
+}
+
+.feedback_inner {
+  display: flex;
+  justify-content: center;
+}
+
+/* .swiper-img {
+  padding-left: 10px;
+  padding-right: 10px;
+} */
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .icons-menu {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-buttons {
+    margin-bottom: 15px;
+  }
+  .mbr-overlay {
+    background-image: url("assets/images/background-mobile.webp");
+    background-size: cover;
+    align-items: stretch;
+  }
 }

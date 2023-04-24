@@ -138,3 +138,17 @@ $jscomp.polyfill(
     });
   });
 })();
+document.querySelectorAll("nav a").forEach(function (a) {
+  a.addEventListener("click", function (event) {
+    event.preventDefault();
+    document.querySelectorAll(".navbar-dropdown").forEach(function (dropdown) {
+      dropdown.classList.remove("opened");
+      dropdown.querySelector(".navbar-collapse").classList.remove("show");
+    });
+    if (a.target === "_blank") {
+      window.open(a.getAttribute("href"), "_blank");
+    } else {
+      window.location.href = a.getAttribute("href");
+    }
+  });
+});
